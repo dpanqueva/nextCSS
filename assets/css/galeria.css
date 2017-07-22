@@ -1,0 +1,40 @@
+#galeria{
+    width: 100%;
+    height: auto;
+    background-color: #d5c75f;
+}
+
+#galeria .contenedor{
+    display: flex;
+	justify-content: center;
+	flex-wrap:wrap;
+}
+
+#galeria img{
+    width: 300px;
+    padding: 10px;
+    height: 200px;
+}
+
+.uno{
+    -webkit-filter: blur(10px);
+}
+
+.dos,.cuatro,.seis{
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+.tres{
+    -webkit-filter: sepia(90%);
+}
+
+@media (min-width: 1024px){
+	#galeria img{
+    width: 600px;
+    padding: 20px;
+    height: 400px;
+}
+
+
+}

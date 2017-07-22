@@ -1,0 +1,38 @@
+#doble_imagen{
+    width: 100%;
+    height: auto;
+    background-color: #d5c75f;
+    border: 1px #000000 solid;
+}
+
+#doble_imagen .contenedor{
+    display: flex;
+	justify-content: center;
+	flex-wrap:wrap;
+}
+
+#doble_imagen article{
+    margin: 15px;
+}
+
+#doble_imagen img{
+    width: 100%;
+	max-width: 280px;
+	height: 250px;
+}
+
+#doble_imagen .paisajes:hover{
+    -webkit-transform: rotate(10deg); /* Chrome, Safari, Opera */
+    transform: rotate(10deg);
+}
+
+#doble_imagen .retratos:hover{
+    -ms-transform: translate(5px,20px);
+  -webkit-transform:translate(5px,20px);
+  -moz-transform:translate(5px,20px);
+  -o-transform: translate(5px,20px);
+  transform: translate(5px,20px);
+     -webkit-box-shadow: 2px 2px 5px #82c3a6;
+  -moz-box-shadow: 2px 2px 5px #82c3a6 ;
+    border: 2px #000000 solid;
+}

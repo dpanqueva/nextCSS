@@ -1,0 +1,68 @@
+@import url("image_doble.css");
+@import url("imagen_central.css");
+@import url("footer.css");
+@import url("galeria.css");
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+body{
+    background-color: #000000;
+}
+
+.pag1 .hola1{
+    text-decoration: none;
+}
+
+.pag2 .hola2{
+    text-decoration: none;
+}
+
+.pag3 .hola3{
+    text-decoration: none;
+}
+
+header{
+    width: 100%;
+    background-color: #5b7989;
+    color: #FFFFFF;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+}
+
+#cabecera{
+    height: 50px;
+}
+
+
+.contenedor{
+    width: 98%;
+    margin: auto;
+}
+
+.contenedor a{
+    float: right;
+    padding: 5px;
+    color: #FFFFFF;
+    text-shadow: 0px 2px #000000;
+    
+}
+
+.contenedor h1{
+    float: left;
+    text-shadow: 0px 2px #000000;
+    font-size: 18px;
+}
+
+header .contenedor{
+    display: table;
+}
+
+@media(min-width:400px){
+	.contenedor h1{
+        text-align: center;
+    }
+}
